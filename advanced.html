@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- <script src="https://use.fontawesome.com/c4e8494b63.js"></script> -->
+        <title>Search</title>
+        
+        <link rel="icon" href="icon.png" alt="tabIcon">
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+    <div id="navGrey">
+        <div id="nav">
+            <img src="googlelogo.png" height="40px" id="logoLeft" alt="google logo">
+
+            <a href="index.html">Google Search</a>
+            <a href="image.html">Image Search</a>
+        </div>
+    </div>
+       
+    <p class="redText margins boldText"> Advanced Search <p>
+    <hr>
+    <div class="margins">
+    <div class="formInput">
+    <p class="boldText"> Find pages with.... </p> 
+   <div class="leftSide"><p>all these words: </div> <input type="text"></p> 
+   <div class="leftSide"><p> this exact word or phrase:</div>  <input type="text"></p>
+   <div class="leftSide"><p> any of these words: </div> <input type="text"></p>
+   <div class="leftSide"><p> none of these words: </div> <input type="text"></p>
+   
+</div>
+            
+   <div class="leftSide"> numbers ranging from </div><input type="text" class="smallInput">  &nbsp to &nbsp <input type="text" class="smallInput">
+    </div>
+    <hr>
+    <div class="margins">
+        <div class="formInput">
+<p class="boldText">Then narrow your results by...</p>
+
+<div class="leftSide"><p>language:</div> <select class="select-css"> 
+    <option>any language</option>
+    <option>Afrikaans</option>
+    <option>Arabic</option>
+    <option>Armenian</option>
+    <option>Belarusian</option>
+</select></p> 
+
+<div class="leftSide"><p>region: </div> <select class="select-css"> 
+    <option>{jQuery.getJSON('http://api.worldbank.org/v2/country')}</option> </select> 
+</p>
+<p>
+    <div class="leftSide">last update:</div> <select class="select-css">
+    <option>anytime</option>
+    <option>past 24 hours</option>
+    <option>past week</option>
+    <option>past month</option>
+    <option>past year</option>
+        
+    </select> </p>
+
+    <div class="leftSide"><p>site or domain:</div> <input>  </p>
+
+
+
+    <div class="leftSide"><p> <a href="#"> SafeSearch:</a></div><select class="select-css"></select> </select> </p>
+
+    <div class="leftSide"><p>file type: </div><select class="select-css"> </select></p>
+
+    <div class="leftSide"><p><a href ="#"> usage rights:</a></div><select class="select-css"> <option>anytime</option>
+    <option>all</option>
+    <option>Creative Commons licenses</option>
+    <option>Commercial & other licenses</option>
+     </select> </p>
+    </div>
+<p><button class="btn btn-primary btnRight">Advanced Search </button> 
+</p><hr>
+
+<p class="boldText"> You can also... </p>
+
+<div class="block">
+<a href="#"> Find pages that are similar to a URL</a> <br>
+<a href="#"> Search pages you've visited </a> <br>
+<a href="#"> Use operators in the search box</a> <br>
+<a href="#"> Customize your search settings </a>
+</div>
+</div>
+
+    
+            <div id="footer2">
+            <div id="bottomText">
+             <div id="alignLeft">
+                <a href="#">Advertising </a>
+                <a href="#">Business </a>
+                <a href="#"> How Search Works</a>
+            </div>
+            
+            <div id="alignRight">
+                <a href="#">Privacy </a>
+                <a href="#">Terms</a>
+                <a href="#">Settings </a>
+            </div>
+            </div>
+            </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+       
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
